@@ -4,7 +4,7 @@ CLASS net/minecraft/class_3096 net/minecraft/world/gen/feature/MegaTreeFeature
 	FIELD field_13685 log Lnet/minecraft/class_2680;
 	FIELD field_13686 maxExtraHeight I
 	METHOD <init> (Ljava/util/function/Function;ZIILbvr;Lbvr;)V
-		ARG 2 emitNeighborBlockUpdates
+		ARG 2 emitNeighborTileUpdates
 		ARG 3 baseHeight
 		ARG 4 maxExtraHeight
 		ARG 5 log

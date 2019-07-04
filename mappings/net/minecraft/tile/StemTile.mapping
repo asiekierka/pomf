@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_2513 net/minecraft/tile/StemTile
+	FIELD field_11583 AGE_TO_SHAPE [Lnet/minecraft/class_265;
+	FIELD field_11584 AGE Lnet/minecraft/class_2758;
+	FIELD field_11585 gourdTile Lnet/minecraft/class_2511;
+	METHOD <init> (Lbsf;Lbmt$c;)V
+		ARG 1 gourdTile
+		ARG 2 settings
+	METHOD method_10694 getGourdTile ()Lnet/minecraft/class_2511;
+	METHOD method_10695 getPickItem ()Lnet/minecraft/class_1792;

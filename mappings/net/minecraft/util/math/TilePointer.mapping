@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_2342 net/minecraft/util/math/TilePointer
+	METHOD method_10120 getTileState ()Lnet/minecraft/class_2680;
+	METHOD method_10121 getTileEntity ()Lnet/minecraft/class_2586;
+	METHOD method_10122 getTilePos ()Lnet/minecraft/class_2338;

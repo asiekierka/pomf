@@ -6,10 +6,10 @@ CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBatcher
 			ARG 1 task
 			ARG 2 priority
 	FIELD field_18766 cameraPosition Lnet/minecraft/class_243;
-	FIELD field_4435 pendingChunks Ljava/util/concurrent/PriorityBlockingQueue;
+	FIELD field_4435 pendingChunks Ljava/util/concurrent/PriorityTileingQueue;
 	FIELD field_4436 THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
 	FIELD field_4437 displayListBufferRenderer Lnet/minecraft/class_286;
-	FIELD field_4438 availableBuffers Ljava/util/concurrent/BlockingQueue;
+	FIELD field_4438 availableBuffers Ljava/util/concurrent/TileingQueue;
 	FIELD field_4439 clientThreadWorker Lnet/minecraft/class_845;
 	FIELD field_4440 workerThreads Ljava/util/List;
 	FIELD field_4441 vboBufferRenderer Lnet/minecraft/class_294;

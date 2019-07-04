@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_1560 net/minecraft/entity/mob/EndermanEntity
-	CLASS class_1561 PlaceBlockGoal
+	CLASS class_1561 PlaceTileGoal
 		FIELD field_7258 enderman Lnet/minecraft/class_1560;
 		METHOD <init> (Laug;)V
 			ARG 1 enderman
@@ -14,7 +14,7 @@ CLASS net/minecraft/class_1560 net/minecraft/entity/mob/EndermanEntity
 			ARG 1 enderman
 		METHOD a (Laug;Laiv;)Z
 			ARG 1 playerEntity
-	CLASS class_1563 PickUpBlockGoal
+	CLASS class_1563 PickUpTileGoal
 		FIELD field_7263 enderman Lnet/minecraft/class_1560;
 		METHOD <init> (Laug;)V
 			ARG 1 enderman
@@ -37,8 +37,8 @@ CLASS net/minecraft/class_1560 net/minecraft/entity/mob/EndermanEntity
 		ARG 1 targetEntity
 	METHOD method_7026 isPlayerStaring (Lnet/minecraft/class_1657;)Z
 		ARG 1 player
-	METHOD method_7027 getCarriedBlock ()Lnet/minecraft/class_2680;
+	METHOD method_7027 getCarriedTile ()Lnet/minecraft/class_2680;
 	METHOD method_7028 isAngry ()Z
 	METHOD method_7029 teleportRandomly ()Z
 	METHOD method_7030 playAngrySound ()V
-	METHOD method_7032 setCarriedBlock (Lnet/minecraft/class_2680;)V
+	METHOD method_7032 setCarriedTile (Lnet/minecraft/class_2680;)V

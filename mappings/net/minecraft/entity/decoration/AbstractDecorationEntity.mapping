@@ -8,5 +8,5 @@ CLASS net/minecraft/class_1530 net/minecraft/entity/decoration/AbstractDecoratio
 	METHOD method_6891 getHeightPixels ()I
 	METHOD method_6892 setFacing (Lnet/minecraft/class_2350;)V
 	METHOD method_6894 onPlace ()V
-	METHOD method_6896 getDecorationBlockPos ()Lnet/minecraft/class_2338;
+	METHOD method_6896 getDecorationTilePos ()Lnet/minecraft/class_2338;
 	METHOD method_6897 getWidthPixels ()I

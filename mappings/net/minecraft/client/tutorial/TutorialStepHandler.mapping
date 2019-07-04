@@ -4,7 +4,7 @@ CLASS net/minecraft/class_1155 net/minecraft/client/tutorial/TutorialStepHandler
 		ARG 1 world
 		ARG 2 hitResult
 	METHOD method_4899 tick ()V
-	METHOD method_4900 onBlockAttacked (Lnet/minecraft/class_638;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;F)V
+	METHOD method_4900 onTileAttacked (Lnet/minecraft/class_638;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;F)V
 	METHOD method_4901 onMouseUpdate (DD)V
 		ARG 1 deltaX
 		ARG 3 deltaY

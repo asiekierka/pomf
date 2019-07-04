@@ -7,7 +7,7 @@ CLASS net/minecraft/class_3207 net/minecraft/world/gen/feature/OakTreeFeature
 	FIELD field_13903 hasVinesAndCocoa Z
 	METHOD <init> (Ljava/util/function/Function;Z)V
 		ARG 1 configFactory
-		ARG 2 emitNeighborBlockUpdates
+		ARG 2 emitNeighborTileUpdates
 	METHOD <init> (Ljava/util/function/Function;ZILbvr;Lbvr;Z)V
 		ARG 3 height
 		ARG 4 log

@@ -7,5 +7,5 @@ CLASS net/minecraft/class_1092 net/minecraft/client/render/model/BakedModelManag
 		ARG 1 spriteAtlas
 	METHOD method_4742 getModel (Lnet/minecraft/class_1091;)Lnet/minecraft/class_1087;
 		ARG 1 id
-	METHOD method_4743 getBlockStateMaps ()Lnet/minecraft/class_773;
+	METHOD method_4743 getTileStateMaps ()Lnet/minecraft/class_773;
 	METHOD method_4744 getMissingModel ()Lnet/minecraft/class_1087;

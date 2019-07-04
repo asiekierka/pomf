@@ -18,13 +18,13 @@ CLASS net/minecraft/class_1661 net/minecraft/entity/player/PlayerInventory
 		ARG 1 slot
 		ARG 2 stack
 	METHOD method_7368 getHotbarSize ()I
-	METHOD method_7370 getBlockBreakingSpeed (Lnet/minecraft/class_2680;)F
+	METHOD method_7370 getTileBreakingSpeed (Lnet/minecraft/class_2680;)F
 		ARG 1 block
 	METHOD method_7372 getArmorStack (I)Lnet/minecraft/class_1799;
 		ARG 1 slot
 	METHOD method_7373 scrollInHotbar (D)V
 		ARG 1 scrollAmount
-	METHOD method_7374 addPickBlock (Lnet/minecraft/class_1799;)V
+	METHOD method_7374 addPickTile (Lnet/minecraft/class_1799;)V
 	METHOD method_7375 damageArmor (F)V
 		ARG 1 armor
 	METHOD method_7376 getEmptySlot ()I

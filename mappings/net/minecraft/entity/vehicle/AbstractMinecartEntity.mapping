@@ -21,15 +21,15 @@ CLASS net/minecraft/class_1688 net/minecraft/entity/vehicle/AbstractMinecartEnti
 	METHOD method_7507 getDamageWobbleTicks ()I
 	METHOD method_7509 setDamageWobbleTicks (I)V
 		ARG 1 wobbleTicks
-	METHOD method_7510 hasCustomBlock ()Z
-	METHOD method_7511 setCustomBlockPresent (Z)V
-	METHOD method_7514 getBlockOffset ()I
-	METHOD method_7515 setCustomBlockOffset (I)V
+	METHOD method_7510 hasCustomTile ()Z
+	METHOD method_7511 setCustomTilePresent (Z)V
+	METHOD method_7514 getTileOffset ()I
+	METHOD method_7515 setCustomTileOffset (I)V
 	METHOD method_7516 dropItems (Lnet/minecraft/class_1282;)V
 		ARG 1 damageSource
-	METHOD method_7517 getDefaultContainedBlock ()Lnet/minecraft/class_2680;
+	METHOD method_7517 getDefaultContainedTile ()Lnet/minecraft/class_2680;
 	METHOD method_7518 getMinecartType ()Lnet/minecraft/class_1688$class_1689;
-	METHOD method_7519 getContainedBlock ()Lnet/minecraft/class_2680;
+	METHOD method_7519 getContainedTile ()Lnet/minecraft/class_2680;
 	METHOD method_7520 setDamageWobbleStrength (F)V
 	METHOD method_7521 getDamageWobbleStrength ()F
 	METHOD method_7522 getDamageWobbleSide ()I
@@ -41,5 +41,5 @@ CLASS net/minecraft/class_1688 net/minecraft/entity/vehicle/AbstractMinecartEnti
 		ARG 7 type
 	METHOD method_7524 setDamageWobbleSide (I)V
 		ARG 1 wobbleSide
-	METHOD method_7526 getDefaultBlockOffset ()I
-	METHOD method_7527 setCustomBlock (Lnet/minecraft/class_2680;)V
+	METHOD method_7526 getDefaultTileOffset ()I
+	METHOD method_7527 setCustomTile (Lnet/minecraft/class_2680;)V

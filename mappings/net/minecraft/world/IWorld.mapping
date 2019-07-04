@@ -4,7 +4,7 @@ CLASS net/minecraft/class_1936 net/minecraft/world/IWorld
 	METHOD method_8394 getMoonPhase ()I
 	METHOD method_8395 getSpawnPos ()Lnet/minecraft/class_2338;
 	METHOD method_8396 playSound (Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V
-	METHOD method_8397 getBlockTickScheduler ()Lnet/minecraft/class_1951;
+	METHOD method_8397 getTileTickScheduler ()Lnet/minecraft/class_1951;
 	METHOD method_8398 getChunkManager ()Lnet/minecraft/class_2802;
 	METHOD method_8400 getSkyAngle (F)F
 		ARG 1 delta

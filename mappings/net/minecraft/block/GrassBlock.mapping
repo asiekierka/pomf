@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_2372 net/minecraft/block/GrassBlock
-	METHOD <init> (Lbmt$c;)V
-		ARG 1 settings

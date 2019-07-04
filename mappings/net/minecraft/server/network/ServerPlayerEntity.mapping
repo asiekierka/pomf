@@ -28,7 +28,7 @@ CLASS net/minecraft/class_3222 net/minecraft/server/network/ServerPlayerEntity
 	METHOD method_14209 getServerBrand ()Ljava/lang/String;
 	METHOD method_14211 onStartedTracking (Lnet/minecraft/class_1297;)V
 	METHOD method_14213 setClientSettings (Lnet/minecraft/class_2803;)V
-	METHOD method_14216 sendBlockEntityUpdate (Lnet/minecraft/class_2586;)V
+	METHOD method_14216 sendTileEntityUpdate (Lnet/minecraft/class_2586;)V
 	METHOD method_14219 getLastActionTime ()J
 	METHOD method_14220 getServerWorld ()Lnet/minecraft/class_3218;
 	METHOD method_14224 setCameraEntity (Lnet/minecraft/class_1297;)V

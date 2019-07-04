@@ -12,7 +12,7 @@ CLASS net/minecraft/class_2902 net/minecraft/world/Heightmap
 		METHOD method_12609 byName (Ljava/lang/String;)Lnet/minecraft/class_2902$class_2903;
 			ARG 0 name
 		METHOD method_16137 shouldSendToClient ()Z
-		METHOD method_16402 getBlockPredicate ()Ljava/util/function/Predicate;
+		METHOD method_16402 getTilePredicate ()Ljava/util/function/Predicate;
 		METHOD method_20454 isStoredServerSide ()Z
 	CLASS class_2904 Purpose
 	FIELD field_13191 chunk Lnet/minecraft/class_2791;

@@ -4,7 +4,7 @@ CLASS net/minecraft/class_2664 net/minecraft/client/network/packet/ExplosionS2CP
 	FIELD field_12178 y D
 	FIELD field_12179 radius F
 	FIELD field_12180 x D
-	FIELD field_12181 affectedBlocks Ljava/util/List;
+	FIELD field_12181 affectedTiles Ljava/util/List;
 	FIELD field_12182 playerVelocityZ F
 	FIELD field_12183 playerVelocityY F
 	METHOD <init> (DDDFLjava/util/List;Lcsf;)V
@@ -18,4 +18,4 @@ CLASS net/minecraft/class_2664 net/minecraft/client/network/packet/ExplosionS2CP
 	METHOD method_11476 getRadius ()F
 	METHOD method_11477 getY ()D
 	METHOD method_11478 getZ ()D
-	METHOD method_11479 getAffectedBlocks ()Ljava/util/List;
+	METHOD method_11479 getAffectedTiles ()Ljava/util/List;

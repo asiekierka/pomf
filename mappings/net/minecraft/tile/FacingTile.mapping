@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_2318 net/minecraft/tile/FacingTile
+	FIELD field_10927 FACING Lnet/minecraft/class_2753;
+	METHOD <init> (Lbmt$c;)V
+		ARG 1 settings

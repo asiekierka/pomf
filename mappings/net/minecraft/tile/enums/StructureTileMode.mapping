@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2776 net/minecraft/tile/enums/StructureTileMode
+	FIELD field_12698 name Ljava/lang/String;

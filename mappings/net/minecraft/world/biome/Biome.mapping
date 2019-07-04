@@ -115,7 +115,7 @@ CLASS net/minecraft/class_1959 net/minecraft/world/biome/Biome
 		ARG 4 z
 		ARG 5 worldHeight
 		ARG 6 noise
-		ARG 8 defaultBlock
+		ARG 8 defaultTile
 		ARG 9 defaultFluid
 		ARG 10 seaLevel
 		ARG 11 seed

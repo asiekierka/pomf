@@ -33,13 +33,13 @@ CLASS net/minecraft/class_2839 net/minecraft/world/chunk/ProtoChunk
 		ARG 1 carver
 		ARG 2 mask
 	METHOD method_12308 setStatus (Lnet/minecraft/class_2806;)V
-	METHOD method_12309 getBlockEntities ()Ljava/util/Map;
-	METHOD method_12314 joinBlockPos (SILnet/minecraft/class_1923;)Lnet/minecraft/class_2338;
+	METHOD method_12309 getTileEntities ()Ljava/util/Map;
+	METHOD method_12314 joinTilePos (SILnet/minecraft/class_1923;)Lnet/minecraft/class_2338;
 		ARG 0 sectionRel
 		ARG 1 sectionY
 		ARG 2 chunkPos
 	METHOD method_12315 addLightSource (Lnet/minecraft/class_2338;)V
 		ARG 1 pos
-	METHOD method_12316 getBlockEntityTags ()Ljava/util/Map;
+	METHOD method_12316 getTileEntityTags ()Ljava/util/Map;
 	METHOD method_16679 getSection (I)Lnet/minecraft/class_2826;
 		ARG 1 y

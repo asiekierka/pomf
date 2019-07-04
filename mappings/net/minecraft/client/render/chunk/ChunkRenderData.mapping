@@ -10,12 +10,12 @@ CLASS net/minecraft/class_849 net/minecraft/client/render/chunk/ChunkRenderData
 		ARG 1 occlusionGraph
 	METHOD method_3641 isEmpty (Lnet/minecraft/class_1921;)Z
 		ARG 1 layer
-	METHOD method_3642 getBlockEntities ()Ljava/util/List;
+	METHOD method_3642 getTileEntities ()Ljava/util/List;
 	METHOD method_3643 setNonEmpty (Lnet/minecraft/class_1921;)V
 		ARG 1 layer
 	METHOD method_3644 getBufferState ()Lnet/minecraft/class_287$class_288;
 	METHOD method_3645 isEmpty ()Z
-	METHOD method_3646 addBlockEntity (Lnet/minecraft/class_2586;)V
+	METHOD method_3646 addTileEntity (Lnet/minecraft/class_2586;)V
 	METHOD method_3647 markBufferInitialized (Lnet/minecraft/class_1921;)V
 		ARG 1 layer
 	METHOD method_3648 setBufferState (Lnet/minecraft/class_287$class_288;)V

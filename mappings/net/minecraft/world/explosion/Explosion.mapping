@@ -4,7 +4,7 @@ CLASS net/minecraft/class_1927 net/minecraft/world/explosion/Explosion
 	FIELD field_9185 entity Lnet/minecraft/class_1297;
 	FIELD field_9186 createFire Z
 	FIELD field_9187 world Lnet/minecraft/class_1937;
-	FIELD field_9188 affectedBlocks Ljava/util/List;
+	FIELD field_9188 affectedTiles Ljava/util/List;
 	FIELD field_9189 z D
 	FIELD field_9190 power F
 	FIELD field_9191 random Ljava/util/Random;
@@ -36,10 +36,10 @@ CLASS net/minecraft/class_1927 net/minecraft/world/explosion/Explosion
 		ARG 0 source
 		ARG 1 entity
 	METHOD method_8345 setDamageSource (Lnet/minecraft/class_1282;)V
-	METHOD method_8346 getAffectedBlocks ()Ljava/util/List;
+	METHOD method_8346 getAffectedTiles ()Ljava/util/List;
 	METHOD method_8347 getCausingEntity ()Lnet/minecraft/class_1309;
-	METHOD method_8348 collectBlocksAndDamageEntities ()V
+	METHOD method_8348 collectTilesAndDamageEntities ()V
 	METHOD method_8349 getDamageSource ()Lnet/minecraft/class_1282;
 	METHOD method_8350 affectWorld (Z)V
 	METHOD method_8351 getAffectedPlayers ()Ljava/util/Map;
-	METHOD method_8352 clearAffectedBlocks ()V
+	METHOD method_8352 clearAffectedTiles ()V

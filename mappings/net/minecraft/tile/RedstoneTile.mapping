@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2436 net/minecraft/tile/RedstoneTile
+	METHOD <init> (Lbmt$c;)V
+		ARG 1 settings

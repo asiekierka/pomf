@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_2391 net/minecraft/tile/KelpPlantTile
+	FIELD field_11190 kelpTile Lnet/minecraft/class_2393;
+	METHOD <init> (Lbpq;Lbmt$c;)V
+		ARG 1 kelpTile
+		ARG 2 settings

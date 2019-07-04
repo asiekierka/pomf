@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_3499 net/minecraft/structure/Structure
-	CLASS class_3501 StructureBlockInfo
+	CLASS class_3501 StructureTileInfo
 		FIELD field_15595 tag Lnet/minecraft/class_2487;
 		FIELD field_15596 state Lnet/minecraft/class_2680;
 		FIELD field_15597 pos Lnet/minecraft/class_2338;

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_3710 net/minecraft/block/BlastFurnaceBlock
-	METHOD <init> (Lbmt$c;)V
-		ARG 1 settings

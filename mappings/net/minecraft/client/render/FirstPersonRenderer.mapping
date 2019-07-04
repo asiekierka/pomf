@@ -32,7 +32,7 @@ CLASS net/minecraft/class_759 net/minecraft/client/render/FirstPersonRenderer
 		ARG 1 hand
 	METHOD method_3225 renderFirstPersonItem (F)V
 		ARG 1 tickDelta
-	METHOD method_3226 renderBlock (Lnet/minecraft/class_1058;)V
+	METHOD method_3226 renderTile (Lnet/minecraft/class_1058;)V
 	METHOD method_3227 getMapAngle (F)F
 	METHOD method_3228 renderFirstPersonItem (Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;F)V
 		ARG 1 player

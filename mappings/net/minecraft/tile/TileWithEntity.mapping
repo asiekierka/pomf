@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_2237 net/minecraft/tile/TileWithEntity
+	METHOD <init> (Lbmt$c;)V
+		ARG 1 settings

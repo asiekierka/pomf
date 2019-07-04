@@ -3,7 +3,7 @@ CLASS net/minecraft/class_3159 net/minecraft/world/gen/feature/DarkOakTreeFeatur
 	FIELD field_13782 LEAVES Lnet/minecraft/class_2680;
 	METHOD <init> (Ljava/util/function/Function;Z)V
 		ARG 1 configFactory
-		ARG 2 emitNeighborBlockUpdates
+		ARG 2 emitNeighborTileUpdates
 	METHOD method_13873 addLeaves (Lnet/minecraft/class_3747;IIILnet/minecraft/class_3341;Ljava/util/Set;)V
 		ARG 2 x
 		ARG 3 y

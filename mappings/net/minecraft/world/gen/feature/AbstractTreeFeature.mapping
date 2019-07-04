@@ -1,13 +1,13 @@
 CLASS net/minecraft/class_2944 net/minecraft/world/gen/feature/AbstractTreeFeature
 	METHOD <init> (Ljava/util/function/Function;Z)V
 		ARG 1 configFactory
-		ARG 2 emitNeighborBlockUpdates
-	METHOD method_12773 setBlockState (Ljava/util/Set;Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3341;)V
+		ARG 2 emitNeighborTileUpdates
+	METHOD method_12773 setTileState (Ljava/util/Set;Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3341;)V
 		ARG 1 logPositions
 		ARG 2 world
 		ARG 3 pos
 		ARG 4 state
-	METHOD method_12774 setBlockStateWithoutUpdatingNeighbors (Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
+	METHOD method_12774 setTileStateWithoutUpdatingNeighbors (Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
 	METHOD method_12775 generate (Ljava/util/Set;Lnet/minecraft/class_3747;Ljava/util/Random;Lnet/minecraft/class_2338;Lnet/minecraft/class_3341;)Z
 		ARG 1 logPositions
 		ARG 2 world

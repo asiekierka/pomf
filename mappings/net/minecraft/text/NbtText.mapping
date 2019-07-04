@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_2574 net/minecraft/text/NbtText
-	CLASS class_2575 BlockNbtText
+	CLASS class_2575 TileNbtText
 		FIELD field_11780 rawPos Ljava/lang/String;
 		FIELD field_16408 pos Lnet/minecraft/class_2267;
 		METHOD <init> (Ljava/lang/String;Lcr$h;ZLjava/lang/String;Ldl;)V

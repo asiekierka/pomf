@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_2301 net/minecraft/tile/CoralTile
+	FIELD field_10833 deadCoralTile Lnet/minecraft/class_2248;
+	FIELD field_10834 SHAPE Lnet/minecraft/class_265;
+	METHOD <init> (Lbmt;Lbmt$c;)V
+		ARG 1 deadCoralTile
+		ARG 2 settings

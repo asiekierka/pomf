@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2737 net/minecraft/tile/enums/BambooLeaves
+	FIELD field_12467 name Ljava/lang/String;

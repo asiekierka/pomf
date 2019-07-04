@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1827 net/minecraft/item/WallStandingTileItem
+	FIELD field_8918 wallTile Lnet/minecraft/class_2248;
+	METHOD <init> (Lbmt;Lbmt;Lbcc$a;)V
+		ARG 1 standingTile
+		ARG 2 wallTile
+		ARG 3 settings

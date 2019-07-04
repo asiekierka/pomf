@@ -3,7 +3,7 @@ CLASS net/minecraft/class_3568 net/minecraft/world/chunk/light/LightingProvider
 	FIELD field_15814 blockLightProvider Lnet/minecraft/class_3558;
 	METHOD <init> (Lbxt;ZZ)V
 		ARG 1 chunkProvider
-		ARG 2 hasBlockLight
+		ARG 2 hasTileLight
 		ARG 3 hasSkyLight
 	METHOD a (Lev;I)V
 		ARG 1 pos

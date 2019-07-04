@@ -93,7 +93,7 @@ CLASS net/minecraft/class_757 net/minecraft/client/render/GameRenderer
 	METHOD method_3199 updateMovementFovMultiplier ()V
 	METHOD method_3201 setFogBlack (Z)V
 		ARG 1 fogBlack
-	METHOD method_3202 shouldRenderBlockOutline ()Z
+	METHOD method_3202 shouldRenderTileOutline ()Z
 	METHOD method_3203 reset ()V
 	METHOD method_3204 getClient ()Lnet/minecraft/class_310;
 	METHOD method_3206 renderAboveClouds (Lnet/minecraft/class_4184;Lnet/minecraft/class_761;FDDD)V

@@ -18,17 +18,17 @@ CLASS net/minecraft/class_3582 net/minecraft/datafixers/fixes/ChunkPalettedStora
 	CLASS class_3587 Section
 		FIELD field_15874 innerPositions Lit/unimi/dsi/fastutil/ints/IntList;
 		FIELD field_15875 seenStates Ljava/util/Set;
-		FIELD field_15876 hasBlocks Z
+		FIELD field_15876 hasTiles Z
 		FIELD field_15877 states [I
 		FIELD field_15878 section Lcom/mojang/datafixers/Dynamic;
 		FIELD field_15879 y I
 		FIELD field_15880 paletteData Lcom/mojang/datafixers/Dynamic;
 		FIELD field_15881 seenIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
 		FIELD field_15882 paletteMap Lnet/minecraft/class_3513;
-		METHOD method_15647 setBlock (ILcom/mojang/datafixers/Dynamic;)V
+		METHOD method_15647 setTile (ILcom/mojang/datafixers/Dynamic;)V
 			ARG 1 pos
-		METHOD method_15649 getBlock (I)Lcom/mojang/datafixers/Dynamic;
-		METHOD method_15650 addBlockAt (II)V
+		METHOD method_15649 getTile (I)Lcom/mojang/datafixers/Dynamic;
+		METHOD method_15650 addTileAt (II)V
 		METHOD method_15651 transform ()Lcom/mojang/datafixers/Dynamic;
 		METHOD method_15652 visit (I)I
 	CLASS class_3588 Level
@@ -38,11 +38,11 @@ CLASS net/minecraft/class_3582 net/minecraft/datafixers/fixes/ChunkPalettedStora
 		FIELD field_15886 level Lcom/mojang/datafixers/Dynamic;
 		FIELD field_15887 blockEntities Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
 		FIELD field_15888 sections [Lnet/minecraft/class_3582$class_3587;
-		METHOD method_15655 getBlockEntity (I)Lcom/mojang/datafixers/Dynamic;
-		METHOD method_15657 setBlock (ILcom/mojang/datafixers/Dynamic;)V
+		METHOD method_15655 getTileEntity (I)Lcom/mojang/datafixers/Dynamic;
+		METHOD method_15657 setTile (ILcom/mojang/datafixers/Dynamic;)V
 		METHOD method_15658 getSection (I)Lnet/minecraft/class_3582$class_3587;
-		METHOD method_15660 removeBlockEntity (I)Lcom/mojang/datafixers/Dynamic;
-		METHOD method_15662 getBlock (I)Lcom/mojang/datafixers/Dynamic;
+		METHOD method_15660 removeTileEntity (I)Lcom/mojang/datafixers/Dynamic;
+		METHOD method_15662 getTile (I)Lcom/mojang/datafixers/Dynamic;
 		METHOD method_15663 adjacentTo (ILnet/minecraft/class_3582$class_3584;)I
 			ARG 1 direction
 		METHOD method_15664 transform ()Lcom/mojang/datafixers/Dynamic;

@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_2730 net/minecraft/client/network/packet/WorldBorderS2CPacket
 	CLASS class_2731 Type
 	FIELD field_12441 centerZ D
-	FIELD field_12442 warningBlocks I
+	FIELD field_12442 warningTiles I
 	FIELD field_12443 centerX D
 	FIELD field_12444 warningTime I
 	FIELD field_12445 interpolationDuration J

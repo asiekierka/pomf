@@ -1,13 +1,13 @@
 CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
-	CLASS class_3444 BlockRandomizer
+	CLASS class_3444 TileRandomizer
 		FIELD field_15317 block Lnet/minecraft/class_2680;
-		METHOD method_14947 getBlock ()Lnet/minecraft/class_2680;
-		METHOD method_14948 setBlock (Ljava/util/Random;IIIZ)V
+		METHOD method_14947 getTile ()Lnet/minecraft/class_2680;
+		METHOD method_14948 setTile (Ljava/util/Random;IIIZ)V
 			ARG 1 random
 			ARG 2 x
 			ARG 3 y
 			ARG 4 z
-			ARG 5 placeBlock
+			ARG 5 placeTile
 	FIELD field_15310 mirror Lnet/minecraft/class_2415;
 	FIELD field_15311 BLOCKS_NEEDING_POST_PROCESSING Ljava/util/Set;
 	FIELD field_15312 facing Lnet/minecraft/class_2350;
@@ -43,7 +43,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 5 y
 		ARG 6 z
 		ARG 7 lootTableId
-	METHOD method_14917 addBlock (Lnet/minecraft/class_1936;Lnet/minecraft/class_2680;IIILnet/minecraft/class_3341;)V
+	METHOD method_14917 addTile (Lnet/minecraft/class_1936;Lnet/minecraft/class_2680;IIILnet/minecraft/class_3341;)V
 		ARG 1 world
 		ARG 2 block
 		ARG 3 x
@@ -64,7 +64,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 	METHOD method_14926 setOrientation (Lnet/minecraft/class_2350;)V
 		ARG 1 orientation
 	METHOD method_14928 applyXTransform (II)I
-	METHOD method_14929 getBlockAt (Lnet/minecraft/class_1922;IIILnet/minecraft/class_3341;)Lnet/minecraft/class_2680;
+	METHOD method_14929 getTileAt (Lnet/minecraft/class_1922;IIILnet/minecraft/class_3341;)Lnet/minecraft/class_2680;
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
@@ -93,7 +93,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 6 maxX
 		ARG 7 maxY
 		ARG 8 maxZ
-		ARG 9 replaceBlocks
+		ARG 9 replaceTiles
 		ARG 10 random
 	METHOD method_14939 isUnderSeaLevel (Lnet/minecraft/class_1941;IIILnet/minecraft/class_3341;)Z
 		ARG 2 x
@@ -113,7 +113,7 @@ CLASS net/minecraft/class_3443 net/minecraft/structure/StructurePiece
 		ARG 7 maxY
 	METHOD method_14943 toNbt (Lnet/minecraft/class_2487;)V
 		ARG 1 tag
-	METHOD method_14945 addBlockWithRandomThreshold (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;Ljava/util/Random;FIIILnet/minecraft/class_2680;)V
+	METHOD method_14945 addTileWithRandomThreshold (Lnet/minecraft/class_1936;Lnet/minecraft/class_3341;Ljava/util/Random;FIIILnet/minecraft/class_2680;)V
 		ARG 1 world
 		ARG 2 bounds
 		ARG 3 random

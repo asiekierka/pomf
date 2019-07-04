@@ -33,7 +33,7 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 		ARG 1 packet
 	METHOD method_11093 onEntityTrackerUpdate (Lnet/minecraft/class_2739;)V
 		ARG 1 packet
-	METHOD method_11094 onBlockEntityUpdate (Lnet/minecraft/class_2622;)V
+	METHOD method_11094 onTileEntityUpdate (Lnet/minecraft/class_2622;)V
 		ARG 1 packet
 	METHOD method_11095 onEntitiesDestroy (Lnet/minecraft/class_2716;)V
 		ARG 1 packet
@@ -77,7 +77,7 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 		ARG 1 packet
 	METHOD method_11115 onUnlockRecipes (Lnet/minecraft/class_2713;)V
 		ARG 1 packet
-	METHOD method_11116 onBlockDestroyProgress (Lnet/minecraft/class_2620;)V
+	METHOD method_11116 onTileDestroyProgress (Lnet/minecraft/class_2620;)V
 		ARG 1 packet
 	METHOD method_11117 onPlayerRespawn (Lnet/minecraft/class_2724;)V
 		ARG 1 packet
@@ -117,7 +117,7 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 		ARG 1 packet
 	METHOD method_11135 onHeldItemChange (Lnet/minecraft/class_2735;)V
 		ARG 1 packet
-	METHOD method_11136 onBlockUpdate (Lnet/minecraft/class_2626;)V
+	METHOD method_11136 onTileUpdate (Lnet/minecraft/class_2626;)V
 		ARG 1 packet
 	METHOD method_11138 onMobSpawn (Lnet/minecraft/class_2610;)V
 		ARG 1 packet
@@ -159,7 +159,7 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 		ARG 1 packet
 	METHOD method_11157 onPlayerPositionLook (Lnet/minecraft/class_2708;)V
 		ARG 1 packet
-	METHOD method_11158 onBlockAction (Lnet/minecraft/class_2623;)V
+	METHOD method_11158 onTileAction (Lnet/minecraft/class_2623;)V
 		ARG 1 packet
 	METHOD method_11159 onScoreboardDisplay (Lnet/minecraft/class_2736;)V
 		ARG 1 packet

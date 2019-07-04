@@ -130,7 +130,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		ARG 2 state
 	METHOD method_7866 getTranslationKey (Lnet/minecraft/class_1799;)Ljava/lang/String;
 		ARG 1 stack
-	METHOD method_7867 fromBlock (Lnet/minecraft/class_2248;)Lnet/minecraft/class_1792;
+	METHOD method_7867 fromTile (Lnet/minecraft/class_2248;)Lnet/minecraft/class_1792;
 		ARG 0 block
 	METHOD method_7868 getPropertyGetter (Lnet/minecraft/class_2960;)Lnet/minecraft/class_1800;
 		ARG 1 id
@@ -164,7 +164,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 	METHOD method_7881 getMaxUseTime (Lnet/minecraft/class_1799;)I
 		ARG 1 stack
 	METHOD method_7882 getMaxCount ()I
-	METHOD method_7884 useOnBlock (Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;
+	METHOD method_7884 useOnTile (Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;
 		ARG 1 context
 	METHOD method_7885 canMine (Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;)Z
 		ARG 1 state

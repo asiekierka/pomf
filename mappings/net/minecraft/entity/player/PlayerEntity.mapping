@@ -61,7 +61,7 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 1 experience
 	METHOD method_7256 shouldDamagePlayer (Lnet/minecraft/class_1657;)Z
 		ARG 1 player
-	METHOD method_7257 openCommandBlockMinecartScreen (Lnet/minecraft/class_1918;)V
+	METHOD method_7257 openCommandTileMinecartScreen (Lnet/minecraft/class_1918;)V
 	METHOD method_7258 isSpawnForced ()Z
 	METHOD method_7259 incrementStat (Lnet/minecraft/class_3445;)V
 		ARG 1 stat
@@ -123,7 +123,7 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	METHOD method_7299 addTellClickEvent (Lnet/minecraft/class_2561;)Lnet/minecraft/class_2561;
 		ARG 1 component
 	METHOD method_7302 getReducedDebugInfo ()Z
-	METHOD method_7303 openStructureBlockScreen (Lnet/minecraft/class_2633;)V
+	METHOD method_7303 openStructureTileScreen (Lnet/minecraft/class_2633;)V
 	METHOD method_7304 addEnchantedHitParticles (Lnet/minecraft/class_1297;)V
 		ARG 1 target
 	METHOD method_7305 isUsingEffectiveTool (Lnet/minecraft/class_2680;)Z
@@ -144,7 +144,7 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 1 score
 	METHOD method_7322 addExhaustion (F)V
 		ARG 1 exhaustion
-	METHOD method_7323 openCommandBlockScreen (Lnet/minecraft/class_2593;)V
+	METHOD method_7323 openCommandTileScreen (Lnet/minecraft/class_2593;)V
 	METHOD method_7324 attack (Lnet/minecraft/class_1297;)V
 		ARG 1 target
 	METHOD method_7326 doesNotSuffocate (Lnet/minecraft/class_2338;)Z
@@ -188,7 +188,7 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 1 modelPart
 	METHOD method_7349 getNextLevelExperience ()I
 	METHOD method_7350 resetLastAttackedTicks ()V
-	METHOD method_7351 getBlockBreakingSpeed (Lnet/minecraft/class_2680;)F
+	METHOD method_7351 getTileBreakingSpeed (Lnet/minecraft/class_2680;)F
 		ARG 1 block
 	METHOD method_7353 addChatMessage (Lnet/minecraft/class_2561;Z)V
 		ARG 1 message

@@ -2,7 +2,7 @@ CLASS net/minecraft/class_636 net/minecraft/client/network/ClientPlayerInteracti
 	FIELD field_3712 client Lnet/minecraft/class_310;
 	FIELD field_3714 currentBreakingPos Lnet/minecraft/class_2338;
 	FIELD field_3715 currentBreakingProgress F
-	FIELD field_3717 breakingBlock Z
+	FIELD field_3717 breakingTile Z
 	FIELD field_3718 selectedStack Lnet/minecraft/class_1799;
 	FIELD field_3719 gameMode Lnet/minecraft/class_1934;
 	FIELD field_3720 networkHandler Lnet/minecraft/class_634;
@@ -10,13 +10,13 @@ CLASS net/minecraft/class_636 net/minecraft/client/network/ClientPlayerInteracti
 	METHOD <init> (Lcxz;Ldjz;)V
 		ARG 1 client
 	METHOD method_2895 hasRidingInventory ()Z
-	METHOD method_2896 interactBlock (Lnet/minecraft/class_746;Lnet/minecraft/class_638;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;
+	METHOD method_2896 interactTile (Lnet/minecraft/class_746;Lnet/minecraft/class_638;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;
 		ARG 1 player
 		ARG 2 world
 		ARG 3 hand
 		ARG 4 hitResult
 	METHOD method_2897 stopUsingItem (Lnet/minecraft/class_1657;)V
-	METHOD method_2899 breakBlock (Lnet/minecraft/class_2338;)Z
+	METHOD method_2899 breakTile (Lnet/minecraft/class_2338;)Z
 	METHOD method_2900 clickButton (II)V
 		ARG 1 syncId
 		ARG 2 buttonId
@@ -34,7 +34,7 @@ CLASS net/minecraft/class_636 net/minecraft/client/network/ClientPlayerInteracti
 	METHOD method_2908 hasStatusBars ()Z
 	METHOD method_2909 clickCreativeStack (Lnet/minecraft/class_1799;I)V
 		ARG 1 stack
-	METHOD method_2910 attackBlock (Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z
+	METHOD method_2910 attackTile (Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)Z
 		ARG 1 pos
 	METHOD method_2911 syncSelectedSlot ()V
 	METHOD method_2912 clickRecipe (ILnet/minecraft/class_1860;Z)V
@@ -56,9 +56,9 @@ CLASS net/minecraft/class_636 net/minecraft/client/network/ClientPlayerInteracti
 	METHOD method_2920 getCurrentGameMode ()Lnet/minecraft/class_1934;
 	METHOD method_2922 isCurrentlyBreaking (Lnet/minecraft/class_2338;)Z
 		ARG 1 pos
-	METHOD method_2923 isBreakingBlock ()Z
+	METHOD method_2923 isBreakingTile ()Z
 	METHOD method_2924 hasLimitedAttackSpeed ()Z
-	METHOD method_2925 cancelBlockBreaking ()V
+	METHOD method_2925 cancelTileBreaking ()V
 	METHOD method_2926 hasExtendedReach ()Z
 	METHOD method_2927 tick ()V
 	METHOD method_2928 isFlyingLocked ()Z

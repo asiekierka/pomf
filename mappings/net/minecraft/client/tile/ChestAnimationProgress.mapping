@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2618 net/minecraft/client/tile/ChestAnimationProgress
+	METHOD method_11274 getAnimationProgress (F)F

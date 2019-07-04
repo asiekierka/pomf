@@ -7,6 +7,6 @@ CLASS net/minecraft/class_3506 net/minecraft/world/gen/surfacebuilder/BadlandsSu
 	FIELD field_15624 WHITE_TERACOTTA Lnet/minecraft/class_2680;
 	FIELD field_15625 TERACOTTA Lnet/minecraft/class_2680;
 	FIELD field_15626 YELLOW_TERACOTTA Lnet/minecraft/class_2680;
-	FIELD field_15627 layerBlocks [Lnet/minecraft/class_2680;
-	METHOD method_15209 initLayerBlocks (J)V
+	FIELD field_15627 layerTiles [Lnet/minecraft/class_2680;
+	METHOD method_15209 initLayerTiles (J)V
 		ARG 1 seed

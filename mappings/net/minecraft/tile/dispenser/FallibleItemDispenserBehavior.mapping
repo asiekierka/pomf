@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2969 net/minecraft/tile/dispenser/FallibleItemDispenserBehavior
+	FIELD field_13364 success Z

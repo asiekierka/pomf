@@ -9,7 +9,7 @@ CLASS net/minecraft/class_2948 net/minecraft/world/gen/feature/LargeOakTreeFeatu
 	FIELD field_13343 LEAVES Lnet/minecraft/class_2680;
 	METHOD <init> (Ljava/util/function/Function;Z)V
 		ARG 1 configFactory
-		ARG 2 emitNeighborBlockUpdates
+		ARG 2 emitNeighborTileUpdates
 	METHOD method_12800 makeBranches (Ljava/util/Set;Lnet/minecraft/class_3747;ILnet/minecraft/class_2338;Ljava/util/List;Lnet/minecraft/class_3341;)V
 		ARG 1 logPositions
 		ARG 2 world

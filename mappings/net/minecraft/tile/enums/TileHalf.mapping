@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_2760 net/minecraft/tile/enums/TileHalf
+	FIELD field_12616 name Ljava/lang/String;

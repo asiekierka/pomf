@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_2560 net/minecraft/block/CobwebBlock
-	METHOD <init> (Lbmt$c;)V
-		ARG 1 settings

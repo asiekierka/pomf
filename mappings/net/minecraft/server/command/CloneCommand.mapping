@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_3023 net/minecraft/server/command/CloneCommand
-	CLASS class_3024 BlockInfo
+	CLASS class_3024 TileInfo
 		FIELD field_13494 blockEntityTag Lnet/minecraft/class_2487;
 		FIELD field_13495 state Lnet/minecraft/class_2680;
 		FIELD field_13496 pos Lnet/minecraft/class_2338;

@@ -12,7 +12,7 @@ CLASS net/minecraft/class_3031 net/minecraft/world/gen/feature/Feature
 	FIELD field_13547 MINESHAFT Lnet/minecraft/class_3195;
 	FIELD field_13549 PLAIN_FLOWER Lnet/minecraft/class_3038;
 	FIELD field_13553 END_CITY Lnet/minecraft/class_3195;
-	FIELD field_13556 emitNeighborBlockUpdates Z
+	FIELD field_13556 emitNeighborTileUpdates Z
 	FIELD field_13557 STRUCTURES Lcom/google/common/collect/BiMap;
 	FIELD field_13565 STRONGHOLD Lnet/minecraft/class_3195;
 	FIELD field_13569 NETHER_BRIDGE Lnet/minecraft/class_3195;
@@ -28,7 +28,7 @@ CLASS net/minecraft/class_3031 net/minecraft/world/gen/feature/Feature
 		ARG 1 configDeserializer
 	METHOD <init> (Ljava/util/function/Function;Z)V
 		ARG 1 configDeserializer
-		ARG 2 emitNeighborBlockUpdates
+		ARG 2 emitNeighborTileUpdates
 	METHOD method_13148 deserializeConfig (Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_3037;
 		ARG 1 dynamic
 	METHOD method_13149 getMonsterSpawns ()Ljava/util/List;
@@ -41,7 +41,7 @@ CLASS net/minecraft/class_3031 net/minecraft/world/gen/feature/Feature
 		ARG 3 random
 		ARG 4 pos
 		ARG 5 config
-	METHOD method_13153 setBlockState (Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
+	METHOD method_13153 setTileState (Lnet/minecraft/class_1945;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 state
